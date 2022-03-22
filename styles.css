@@ -1,0 +1,54 @@
+
+/* test to see if your CSS file is properly linked */
+/* remove when you see the background has turned green */
+
+/* body {
+  background-color: green;
+} */
+
+section {height: 150vh;}
+
+nav {background-color: rgb(68, 119, 185); 
+  margin: 8px; 
+  padding: 4px; 
+  padding-right: 1rem;}
+
+ul {display: flex; 
+  flex-direction: row; 
+  justify-content: flex-end; 
+  padding: 1rem;}
+
+body {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+nav li {list-style: none;}
+
+nav li a {text-decoration: none;
+color: white;
+margin: 8px;}
+
+.card-container {display: flex; 
+  flex-direction: row; 
+  justify-content: flex-center; 
+  margin: 1rem; 
+  padding: 1rem;}
+
+img {width: 300px; 
+  height: 300px;}
+
+.card-one,
+.card-two,
+.card-three,
+.friends,
+.seinfeld,
+.how-i-met-your-mother {border: 5px solid grey; margin: 5px; padding: 8px;}
+
+#home-page {height: 75vh;}
+
+  h1 {font-family: 'Satisfy', cursive; font-size: 40px;}
+  #home-header {font-family: 'cookie', cursive; font-size: 70px;}
+
+  footer {background-color: rgb(204, 204, 195); 
+    height: 1rem; 
+    padding: 1rem;}
+
+
